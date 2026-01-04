@@ -1,4 +1,4 @@
-# 🏠 Smart Home Dashboard
+# 🖼️ Image Background Remover
 
 > **Assigned to:** Bhumika  
 > **Difficulty:** Intermediate  
@@ -9,14 +9,14 @@
 
 ## 📌 Project Overview
 
-Build a web-based smart home dashboard to control virtual IoT devices! Toggle lights, adjust thermostats, view sensor data—all with a beautiful real-time updating interface.
+Build a web application that removes backgrounds from images automatically! Users upload an image, the app removes the background using Python, and they can download the transparent PNG result.
 
-### Virtual Devices:
-- 💡 Smart Lights (on/off, brightness)
-- 🌡️ Thermostat (temperature control)
-- 🚪 Door Lock (locked/unlocked)
-- 📹 Security Camera (active/inactive)
-- 🔌 Smart Plugs (on/off)
+### Features:
+- Upload any image (JPG, PNG)
+- Automatically detect and remove background
+- Preview before/after
+- Download result as transparent PNG
+- Support for multiple images
 
 ---
 
@@ -24,44 +24,42 @@ Build a web-based smart home dashboard to control virtual IoT devices! Toggle li
 
 | You Already Know | You Will Learn |
 |------------------|----------------|
-| Python | Flask REST API |
-| IoT concepts | AJAX for real-time updates |
-| Git & GitHub | JSON state management |
+| Python | rembg library for background removal |
+| Git & GitHub | Flask web application |
+| Image basics | File upload handling |
 
 ---
 
 ## ✅ Tasks
 
-- [ ] Set up Flask project
-- [ ] Create device state storage (JSON file or in-memory)
-- [ ] Build API endpoints for each device:
-  - GET /api/devices - all device states
-  - POST /api/device/:id/toggle - toggle on/off
-  - POST /api/device/:id/set - set value (brightness, temp)
-- [ ] Create beautiful dashboard HTML/CSS
-- [ ] Add device cards with icons
-- [ ] Use JavaScript/AJAX to call API without page refresh
-- [ ] Update UI immediately when device toggled
-- [ ] Add status indicators (green=on, red=off)
-- [ ] Add slider for brightness/temperature
-- [ ] Deploy on Render/PythonAnywhere
+- [ ] Set up Flask project with virtual environment
+- [ ] Install rembg library (`pip install rembg`)
+- [ ] Create upload page with drag-and-drop or file picker
+- [ ] Handle image upload in Flask route
+- [ ] Use rembg to remove background from uploaded image
+- [ ] Save processed image as PNG with transparency
+- [ ] Display before/after preview on result page
+- [ ] Add download button for processed image
+- [ ] Add loading spinner while processing
+- [ ] Handle errors (invalid file type, too large, etc.)
+- [ ] Deploy on Render (or HuggingFace Spaces for free GPU)
 
 ---
 
 ## 🌟 Bonus Challenges
 
-- [ ] **+5 points:** Add device schedules (turn on at specific time)
-- [ ] **+10 points:** Add "scenes" (Movie mode = dim lights, etc.)
-- [ ] **+10 points:** Add simulated sensor data (temperature readings)
-- [ ] **+5 points:** Add activity log (history of actions)
+- [ ] **+5 points:** Add batch processing (multiple images at once)
+- [ ] **+10 points:** Let users choose custom background color
+- [ ] **+10 points:** Add image preview with zoom functionality
+- [ ] **+5 points:** Add option to download in different formats (PNG, WebP)
 
 ---
 
 ## 📦 Deliverables
 
-1. Working dashboard with all devices
-2. Real-time toggle without refresh
-3. Clean, intuitive UI
+1. Working background remover web app
+2. Upload and download functionality
+3. Before/after preview
 4. Deployed live link
 5. Code pushed to GitHub
 

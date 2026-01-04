@@ -1,4 +1,4 @@
-# 🎮 Text Adventure Game Engine
+# 🎱 Magic 8 Ball - Fortune Teller App
 
 > **Assigned to:** Amninder Singh  
 > **Difficulty:** Beginner  
@@ -9,20 +9,18 @@
 
 ## 📌 Project Overview
 
-Build a text-based adventure game in Java! Create an interactive story where players make choices that affect the outcome. Think of it like a "Choose Your Own Adventure" book but in code.
+Build a Magic 8 Ball fortune teller app with a graphical interface in Java! Users type a yes/no question, click the 8 ball, and get a mysterious random answer with a cool animation effect.
 
-### Example Flow:
-```
-You wake up in a dark forest. 
-What do you do?
-1. Walk north
-2. Look around
-3. Check your inventory
+### How It Works:
+1. User types a question ("Will I pass my exam?")
+2. Clicks the Magic 8 Ball button
+3. Ball "shakes" with animation
+4. Random fortune appears ("It is certain", "Ask again later", "Don't count on it")
 
-> 1
-
-You walk north and find a river...
-```
+### Example Fortunes:
+- ✅ Positive: "It is certain", "Yes definitely", "You may rely on it"
+- 🤔 Neutral: "Ask again later", "Cannot predict now", "Concentrate and ask again"
+- ❌ Negative: "Don't count on it", "My reply is no", "Very doubtful"
 
 ---
 
@@ -30,43 +28,43 @@ You walk north and find a river...
 
 | You Already Know | You Will Learn |
 |------------------|----------------|
-| Basic Java | Object-Oriented Programming |
-| HTML basics | File I/O in Java |
-| Logic building | Scanner for user input |
+| Basic Java | Java Swing GUI (JFrame, JButton) |
+| HTML basics | Event Handling in Java |
+| Logic building | Random class usage |
 
 ---
 
 ## ✅ Tasks
 
-- [ ] Design your story with at least 3 different endings
-- [ ] Create classes: Game, Player, Location, Item
-- [ ] Use Scanner for taking user input
-- [ ] Implement location/room system with descriptions
-- [ ] Add player inventory system (pick up, use items)
-- [ ] Add health/lives system
-- [ ] Implement save game feature (write to file)
-- [ ] Implement load game feature (read from file)
-- [ ] Add at least 5 locations and 3 items
-- [ ] Make a compelling story!
+- [ ] Learn Java Swing basics (JFrame, JPanel, JButton, JLabel)
+- [ ] Create a window with a title "Magic 8 Ball"
+- [ ] Add a text field for user to type their question
+- [ ] Add a big circular button styled like an 8 ball
+- [ ] Create an array of 20 possible fortune responses
+- [ ] When button clicked, pick random response from array
+- [ ] Display the fortune in a label below the ball
+- [ ] Add a simple "shake" effect (change text to "Thinking..." briefly)
+- [ ] Style the UI with colors (black ball, white triangle, blue text)
+- [ ] Add a "Clear" button to ask another question
 
 ---
 
 ## 🌟 Bonus Challenges
 
-- [ ] **+5 points:** Add combat system with simple enemies
-- [ ] **+10 points:** Add ASCII art for locations
-- [ ] **+10 points:** Add random events/encounters
-- [ ] **+5 points:** Add a scoring system
+- [ ] **+5 points:** Add sound effect when ball is clicked
+- [ ] **+10 points:** Add actual shake animation (ball moves)
+- [ ] **+10 points:** Save question history to a file
+- [ ] **+5 points:** Add fortune categories (Love, Career, General)
 
 ---
 
 ## 📦 Deliverables
 
-1. Working text adventure game
-2. Save/Load functionality working
-3. At least 3 different endings
+1. Working Magic 8 Ball app with GUI
+2. At least 20 different fortunes
+3. Clean, styled interface
 4. Code pushed to GitHub
-5. Demo video of gameplay
+5. Demo video or executable JAR file
 
 ---
 
