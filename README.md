@@ -74,10 +74,10 @@ Submission form link will be shared. Deadline: **January 10, 2026, 11:59 PM IST*
 
 1. Google your problem first
 2. Ask in Discord #tech-help channel
-3. Reach out to tech lead if stuck
+3. Reach out to the tech lead if stuck
 
 ---
 
-**Happy Coding! 💻**
+**Happy Coding!** 
 
 *D4 Community*
