@@ -1,4 +1,4 @@
-# 📋 D4 Tech Team - Project Guidelines
+# 📋 D4 Project Challenge 2026 - Project Guidelines
 
 > **Assignment Date:** January 5, 2026  
 > **Deadline:** January 11, 2026
